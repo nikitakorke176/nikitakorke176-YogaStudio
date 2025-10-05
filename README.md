@@ -64,22 +64,21 @@ WebsiteTemplates/
 ├── demo.gif    # Optional GIF demo
 └── README.md
 
+
 ✨ Features
 
-    Fully responsive design for all devices
+Fully responsive design for all devices
 
-    Navigation bars, hero sections, and footers
+Navigation bars, hero sections, and footers
 
-    Class / Service / Product / Project cards
+Class / Service / Product / Project cards
 
-    Clean, professional layouts suitable for portfolios or businesses
+Clean, professional layouts suitable for portfolios or businesses
 
-    Easy to customize and deploy
+Easy to customize and deploy
 
 📌 Author
 
 Nikita Korke
 Full Stack Java Developer
 GitHub Profile
-
-© 2025 Nikita Korke. All rights reserved.
