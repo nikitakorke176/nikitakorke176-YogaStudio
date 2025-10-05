@@ -24,7 +24,7 @@ Welcome to the **Website Templates Collection** — a set of clean, responsive, 
   <tr>
     <td>Hospital</td>
     <td>Hospital website with departments, doctors, and appointment section.</td>
-    <td><img src="img10.png" alt="Hospital" style="max-width:100%; height:auto;"></td>
+    <td><img src="logo6.png" alt="Hospital" style="max-width:100%; height:auto;"></td>
   </tr>
   <tr>
     <td>Book Publisher</td>
