@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.logo{
+			height: 50px;
+			width: 5%;
+			background-color: purple;
+			float: left;
+		}
+		.menu ul{
+            list-style-type: none;
+			display: inline-block;
+			float: left;
+			height: 50px;
+			width: 92%;
+			background-image: linear-gradient(to right,purple,red ,orange);
+			margin-left: 0px;
+			margin-top: 0px;
+			text-align: center;
+			
+		}
+		.menu li{
+            display: inline-block;
+			list-style-type: none;
+			margin-left: 100px;
+			float: left;
+			margin-top: 20px;
+		}
+		.more{
+			height: 30px;width: 10%;
+			text-align: center;
+			margin-top: 10px;
+			padding-top: 5px;
+			float: right;
+			margin-right:30px ;
+			background-color: white;
+			box-sizing: border-box;
+			border-radius: 30%;
+			color:blue;
+		}
+		@media(max-width:667px){
+ 	.menu li{display: none;float: left;margin-left: 0px}
+    .menu{width: 90%;float:left;margin-left:0px }
+     .more{width: 20%;margin-left: 0px}
+     .menu{margin-left:0px;}
+     .logo{z-index: 999;float: left;}
+ }
+		.soap{
+			height: 300px;
+			width: 100%;
+			float: left;
+            background-image: linear-gradient(to right,purple,red ,orange) ;
+            margin-top: 0px;
+		}
+		.soap p{
+			color: white;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.soap h1{
+			color: white;
+			font-family: serif;
+			font-size: 50px;
+			text-align: center;
+		}
+		.mm{
+			height: 50px;width: 15%;
+			text-align: center;
+			margin-top: 10px;
+			padding-top: 15px;
+			float: right;
+			margin-right:650px ;
+			background-color: white;
+			box-sizing: border-box;
+			border-radius: 20%;
+			color:blue;
+		}
+		.image{
+			height: 1100px;
+			width: 100%;
+			background-image: url(back.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			float: left;
+		}
+		.a{
+height: 500px;
+width: 25%;
+float: left;
+background-color: white;
+margin-left: 350px;
+margin-top: 30px;
+		}
+		.b{
+height: 500px;
+width: 25%;
+float: left;
+background-color:white;
+margin-left: 100px;
+margin-top: 30px;
+		}
+
+		.c{
+height: 500px;
+width: 25%;
+float: left;
+background-color: white;
+margin-left: 350px;
+margin-top: 30px;
+		}
+		.d{
+height: 500px;
+width: 25%;
+float: left;
+background-color:white;
+margin-left: 100px;
+margin-top: 30px;
+		}
+
+		.a1{
+			height: 500px;
+			width: 100%;
+			float: left;
+			background-image: url(pic2.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 50% ;
+}
+.a1 h1{
+	margin-top: 270px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: purple;
+}
+.a1 p{
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+@media(max-width:667px){
+ 	.a{margin-left: 0px;width: 100%}
+ 	.b{margin-left: 0px;width: 100%}
+ 	.c{margin-left: 0px;width: 100%}
+ 	.d{margin-left: 0px;width: 100%}
+    .image{
+    	height:auto;
+    }
+ }
+
+
+.b1{
+			height: 500px;
+			width: 100%;
+			float: left;
+			background-image: url(pic3.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 50% ;
+}
+.b1 h1{
+	margin-top: 270px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: purple;
+}
+.b1 p{
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.c1{
+			height: 500px;
+			width: 100%;
+			float: left;
+			background-image: url(pic4.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 50% ;
+}
+.c1 h1{
+	margin-top: 270px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: purple;
+}
+.c1 p{
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.d1{
+			height: 500px;
+			width: 100%;
+			float: left;
+			background-image: url(pic5.png);
+			background-repeat: no-repeat;
+			background-size: 100% 50% ;
+}
+.d1 h1{
+	margin-top: 270px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: purple;
+}
+.d1 p{
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+		.post{
+			height: 300px;
+			width: 100%;
+			background-color: purple;
+			float: left;
+			margin-top: 40px;
+		}
+		.post p{
+			color: white;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.post h1{
+			color: white;
+			font-family: serif;
+			font-size: 50px;
+			text-align: center;
+		}
+		.logom{
+			margin-left: 250px;
+			word-spacing: 100px;
+		}
+		@media(max-width:667px){
+ 	.post{margin-top: 300px;height: auto}
+ 	.post logom{margin-left: auto}
+ }
+
+	</style>
+</head>
+<body>
+	<div class="logo">
+		<img src="logo.png"></div>
+<div class="menu">
+	<ul>
+		<li>Home</li>
+		<li>Blog</li>
+		<li>Services</li>
+		<li>Clients</li>
+		<li>F.A.Q.</li>
+		<li>Portfolio</li>
+		<li>Contacts</li>
+		
+<div class="more">GET IN TOUCH</div></ul></div>
+	<div class="soap"><p>BRANDING,DIGITAL MARKETING & INSTAGRAM GROWTH AGENCY</p>
+		<h1><em>WE CREATE BRANDS</em></h1>
+		<div class="mm">GET IN TOUCH</div>
+	</div>
+	<div class="image">
+	<div class="a">
+		<div class="a1"><h1>Top 12 Things Your Website Should Have</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p></div>
+	</div>	
+	<div class="b">
+		<div class="b1">
+		<h1>How To Develop Your Own Platform</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p></div>
+	</div>
+	<div class="c">
+		<div class="c1">
+			<h1>How To Make a Creative Website</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+		</div>
+	</div>
+	<div class="d">
+		<div class="d1">
+			<h1>Top 3 Marketing Facts You Need To Know</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+		</div>
+	</div>
+
+	<div class="post">
+		<p>OUR SERVICES</p>
+		<h1>Our Specialities</h1>
+		<div class="logom">
+			<img src="education.png">EDUCATION
+		<img src="turism.png">TOURISM
+		<img src="startup.png">STARTUP
+		<img src="ecommerce.png">ECOMMERCE
+		<img src="product.png">PRODUCTS</div>
+	</div>
+
+
+
+	</div>
+</body>
+</html>

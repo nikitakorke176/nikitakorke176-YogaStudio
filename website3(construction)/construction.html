@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <!--css -->
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap.rtl.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap.rtl.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-grid.rtl.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-grid.rtl.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-reboot.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-reboot.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-reboot.rtl.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-reboot.rtl.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-utilities.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-utilities.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-utilities.rtl.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap(CSS)/bootstrap-utilities.rtl.min.css">
+  <!--js
+  <script type="text/javascript" src="bootstrap(JS)/bootstrap.bundle.js"></script>
+  <script type="text/javascript" src="bootstrap(JS)/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="bootstrap(JS)/bootstrap.esm.js"></script>
+  <script type="text/javascript" src="bootstrap(JS)/bootstrap.esm.min.js"></script>
+  <script type="text/javascript" src="bootstrap(JS)/bootstrap.js"></script>
+  <script type="text/javascript" src="bootstrap(JS)/bootstrap.min.js"></script>-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <div class="container-fluid menu">
+      <div class="row">
+        <div class="col-3 bg-info text-black">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAAAflBMVEX///8AAACvr6/Dw8ONjY1XV1d7e3tUVFSqqqrQ0NAPDw+0tLTr6+u3t7c4ODhaWlr19fXx8fHh4eFGRkbZ2dnOzs6dnZ35+flsbGwzMzNjY2PHx8c7OzuFhYWUlJS8vLwlJSUsLCyQkJAbGxt0dHRCQkJra2scHBwTExNMTEyaQhTJAAADzElEQVR4nO3a6XqaQACFYcYtKGKRoARU1JQavf8b7Cwso4WWJK2YPt/7JzjAAIfZtHUcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwN+wHXfV9p/27iK76vtP+jbtGNev7TvtHVt2RVXeds2K8KrLKX0d/8tr3nfbPZDXt+za+hE9lNXUnaTpxh7FdNnjd7dxhUBWEnr83B0w9fxCpjb3vheXhnrepT9549R5JfppbVceeXwuc2HXdaOhM7/aiP5GVO6vGskv4S1m+LIoGQhz09lCWbnVqRyGyYu9OiKeqxkCd+L2+gvzkWxec28OnvGI0jjZiesicO/lwVkFi37l5/cEPu2xlDvSESFQrm8qihWlgCyHWRTUyq29VnSN93rD6LD/srUveZuW8OJvX2frxs9qq80b+auWvtyI1ZepLwNabB8tNrvbq/lZmFYqyfbVmFctD5BtIqms0ZPUy2hnq7eydMArmVh/+t+ysRpPf2F2f5wvrISPTBWVvq/rWSvVMvWWymp/lEq0cfFqyyuSRYd0gG7PqcxaysoqP7Ysrcbu+SmUrua3rSZQNzNERmYalswoOVTtzdFZZvFTiiZWVjkZW8uOqoPZIWS1+F9XNul2O4a76G7maaliB3SSc4FgcIbNazGXVs/oxry9UZrUW4iwrtAJpyGr8op1ye4K8k49mVT7G2uxV28H1a5eDl16/yqy2agqcVc2qJSu56ck/z/XM2JBVxVpa3MsnstLTeWtW8bYYvFQfjPdy37lqCo1ZuUK8qb9RHcQDZ3V4R1aX4u2HA887m0dSWefVAeqR9QxlxnaV6aLc1zi2y159WCRJotYdxbDXkJUXFuz1753Y86DnNlo3ZeUWPUZ5Kx5JLY/Kn0+DRblEKNYMkzqCxqwGV2/GtJqGrB5kbG8zb8pKPYeY6F4VF+3KWaqyk6or1ut3k0e5FlWLr5E5tymr71dZvZTXyKYro7iRTRwYn3/0d/twVpF5qORYjVfy69zV8xb9scxKTYxmZmzKyreGINU+9Vuwawtuxqt6pribD2flhEfrzou18+pcF5WrUpnVUXdGtcw0X2CSq6z0uCeb1biseVkGbV1gdptVv2N7m5as5Jfh/E3tOeR+PdB6psIkqya9VXqaFL8zZFm2VpuTU1qOQ26aqpVFmOdpfRNZetKNbftcucTqRmaV8xfLqkU8X/75oK/IZPU8fmp3eWdW/y3+baI7suqOrLojq+74/wzdrYYd3e2XWgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgMf3E+PONKpv3lSEAAAAAElFTkSuQmCC" alt="" style="height: 60px;" class="img-fluid ms-5">
+        </div>
+        <div class="col-9 p-0">
+          <nav class="navbar navbar-expand-lg bg-info navbar-white">
+  <!--<div class="container-fluid">-->
+    <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-10">
+        <li class="nav-item ms-3">
+          <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active ms-3 text-black" href="#">Corporate</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active ms-3 text-black" href="#">V Residences</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active ms-3 text-black" href="#">Residential</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active ms-3 text-black" href="#">Rise</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active ms-3 text-black" href="#">Redevlopment</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active ms-3 text-black" href="#">contact</a>
+        </li>
+        <!--<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>-->
+    </div>
+  </div>
+</nav>
+        </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 bg-dark p-0">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://projxnews.com/uploads/blog/768x428/gokhale-constructions.webp" class="d-block w-100 img-fluid" alt="" style="height:700px">
+    </div>
+   </div>
+</div>
+          </div>
+        </div>
+      </div>
+    
+
+    <div class="container my-5">
+    <div class="row">
+      <div class="col-md-12 col-lg-6 mb-4">
+        <p class="ms-5 fs-5">WHO ARE WE</p>
+        <h1 class="fs-1 ms-5">At Gokhale, we have shaped next-gen global landmarks for new-age Punekars.</h1>
+      </div>
+      <div class="col-md-12 col-lg-3 mb-4">
+        <h1 class="text-center text-info mt-5 fs-40">175 +</h1>
+        <h4 class="text-center mt-3">Projects</h4>
+      </div>
+       <div class="col-md-12 col-lg-3 mb-4">
+        <h1 class="text-center text-info mt-5 fs-40">28 +</h1>
+        <h4 class="text-center mt-3">Locations</h4>
+      </div>
+    </div> </div>
+
+    <div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <img src="img3.jpg" class="mb-4 img-fluid rounded">
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <h1 class="mt-5 ms-5">About gokhale</h1>
+            <p class="mt-5 ms-5">  
+
+
+Founded by Mr. Vishal Gokhale in 2004, Gokhale Constructions has become one of Pune’s most loved and trusted real estate brands, with more than 175 projects to its name.
+</p>
+            <p class="mt-5 ms-5">
+From world-class commercial destinations to iconic residential addresses, creations by Gokhale stand at Pune’s most popular and central locations
+</p>
+<button class="btn btn-primary mt-5 ms-5">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-10 mt-5 mb-5" box>
+            <p>FEATURE PROJECTS</p>
+            <h1>PUNE'S POPULAR LIFESTILE CHOICES</h1>
+          </div>
+          <div class="col-2 mt-5 mb-5">
+            <button class="btn btn-success text-start">VIEW ALL PROJECTS</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-3 mb-5" >
+        <div class="row">
+          <div class="col-12"></div>
+
+          <div class="col-md-12 col-lg-4 mt-4">
+            <div class="card-body p-0">
+              <img src="img4.jpg" class="w-100">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4 mt-4">
+            <div class="card-body p-0">
+              <img src="https://gokhaleconstructions.com/wp-content/uploads/2023/09/Commercial-Project-Thumbnails_GBT.jpg" class="w-100">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4 mt-4">
+            <div class="card-body p-0">
+              <img src="img4.jpg" class="w-100">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4 mt-4">
+            <div class="card-body p-0">
+              <img src="https://gokhaleconstructions.com/wp-content/uploads/2023/09/Commercial-Project-Thumbnails_GBT.jpg" class="w-100">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4 mt-4">
+            <div class="card-body p-0">
+              <img src="img4.jpg" class="w-100">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4 mt-4">
+            <div class="card-body p-0">
+              <img src="https://gokhaleconstructions.com/wp-content/uploads/2023/09/Commercial-Project-Thumbnails_GBT.jpg" class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5">
+            <p class="text-center text-info">OUR TRACK RECORD </p>
+            <h1 class="text-center">Shaping skylines<br>
+since 2004</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-lg-6 mb-5 bg-dark">
+            <img src="img5.jpg" class="w-100" >
+        </div>
+<div class="col-md-12 col-lg-6 text-white bg-dark p-0 mb-5">
+  <h1 class="ms-5 mt-5">5000 +</h1>
+   <h2 class="ms-5 mt-5">HAPPY FAMILIES</h2>
+   <p class="ms-5 mt-5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 mt-5 mb-5 text-white bg-dark p-5">
+          <h5 class="ms-5">FROM THE DIRECTOR'S DESK</h5>
+          <h1 class="ms-5 mt-5">
+We are inspired by <br> Pune and Punekars' <br>high standards.
+</h1>
+          <p class="mt-5 ms-5">
+In our journey of 19 years till date, we have always believed that<br> our success in delivering anything comes from our <br>understanding of people's global lifestyle expectations.
+</p>
+        </div>
+        <div class="col-md-12 col-lg-6 p-0 mt-5 mb-5">
+          <img src="https://gokhaleconstructions.com/wp-content/uploads/2023/10/Video-Thumbnail.jpg" class="w-100" style="height:500px">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div  class="col-12 mb-5">
+          <p class="text-center text-info">Inside the world of Gokhale</p>
+          <h1 class="text-center">What's trending?</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mb-5 mt-3">
+      <div class="row">
+        <div class="col-12">
+        
+        </div>
+
+         <div class="col-md-12 col-lg-3 mt-4">
+          <div class="card-body p-0">
+          <iframe width="302" height="538" src="https://www.youtube.com/shorts/U9RyHycrTGI" title="Sri Sri Ravi Shankar| Gokhale Constructions | Gokhale business Bay | Gokhale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-3 mt-4">
+          <div class="card-body p-0">
+           <iframe width="302" height="538" src="https://www.youtube.com/embed/9f_LHAm_mZk" title="Chandrakant Patil | Gokhale Tejalkunj Kothrud | Gokhale Constructions | Gokhale Group | Pune" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+          </div>
+        </div>
+
+         <div class="col-md-12 col-lg-3 mt-4">
+          <div class="card-body p-0">
+           <iframe width="302" height="538" src="https://www.youtube.com/embed/9BXPX_zKjZ4" title="Gokhale Business Bay | GBB Kothrud Pune | Gokhale Constructions | Gokhale Group | Office Spaces" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+          </div>
+        </div>
+
+         <div class="col-md-12 col-lg-3 mt-4">
+          <div class="card-body p-0">
+          <iframe width="302" height="538" src="https://www.youtube.com/embed/liqbtUqWGGg" title="Mr. Avadhoot Gupte | Gokhale Constructions | Gokhale Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+          </div>
+        </div>
+      </div>
+    </div>
+
+</main>
+</body>
+</html>
