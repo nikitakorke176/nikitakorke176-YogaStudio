@@ -9,7 +9,7 @@ Welcome to the **Website Templates Collection** — a set of clean, responsive, 
 | Template | Description | Preview Image |
 |----------|-------------|---------------|
 | **Yoga Studio** | Showcase yoga classes, schedules, and contact info. | ![Yoga](img1.jpg) |
-| **Hospital** | Hospital website with departments, doctors, and appointment section. | ![Hospital](website1/screenshot.png) |
+| **Hospital** | Hospital website with departments, doctors, and appointment section. | ![Hospital](website1/dentalimg.jpg) |
 | **Book Publisher** | Display books, authors, and publishing info. | ![Book Publisher](website2/screenshot.png) |
 | **Construction** | Construction company portfolio, projects, and services. | ![Construction](website3/screenshot.png) |
 | **Coaching Classes** | Display courses, trainers, and schedules. | ![Coaching](website4/screenshot.png) |
@@ -17,7 +17,7 @@ Welcome to the **Website Templates Collection** — a set of clean, responsive, 
 | **Brand Creation** | Template for showcasing products and services of a brand. | ![Brand](website6/screenshot.png) |
 | **Vacation Rentals** | Display rental properties, booking info, and gallery. | ![Vacation](website7/screenshot.png) |
 
-> ⚠️ Replace `screenshot.png` with your actual preview images for each template.
+
 
 ---
 
@@ -32,10 +32,7 @@ Welcome to the **Website Templates Collection** — a set of clean, responsive, 
 
 ## 🎬 GIF / Video Demo
 
-You can add a short demo of the website to make your portfolio more professional:
-
-![Demo](demo.gif)  
-*(Replace `demo.gif` with a screen recording or GIF of the template)*
+https://www.linkedin.com/in/nikita-korke-8b717b2b6/recent-activity/all
 
 ---
 
@@ -76,6 +73,8 @@ Class / Service / Product / Project cards
 Clean, professional layouts suitable for portfolios or businesses
 
 Easy to customize and deploy
+
+
 
 📌 Author
 
