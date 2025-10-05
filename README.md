@@ -19,12 +19,12 @@ Welcome to the **Website Templates Collection** — a set of clean, responsive, 
   <tr>
     <td>Yoga Studio</td>
     <td>Showcase yoga classes, schedules, and contact info.</td>
-    <td><img src="yoga.html" alt="Yoga Studio" style="max-width:100%; height:auto;"></td>
+    <td><img src="img1.jpg" alt="Yoga Studio" style="max-width:100%; height:auto;"></td>
   </tr>
   <tr>
     <td>Hospital</td>
     <td>Hospital website with departments, doctors, and appointment section.</td>
-    <td><img src="img1.jpg" alt="Hospital" style="max-width:100%; height:auto;"></td>
+    <td><img src="img2.jpg" alt="Hospital" style="max-width:100%; height:auto;"></td>
   </tr>
   <tr>
     <td>Book Publisher</td>
