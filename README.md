@@ -8,14 +8,15 @@ Welcome to the **Website Templates Collection** — a set of clean, responsive, 
 
 | Template | Description | Preview Image |
 |----------|-------------|---------------|
-| **Yoga Studio** | Showcase yoga classes, schedules, and contact info. | ![Yoga](img1.jpg) |
-| **Hospital** | Hospital website with departments, doctors, and appointment section. | ![Hospital](website1/dentalimg.jpg) |
-| **Book Publisher** | Display books, authors, and publishing info. | ![Book Publisher](website2/https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D) |
-| **Construction** | Construction company portfolio, projects, and services. | ![Construction](website3/https://projxnews.com/uploads/blog/768x428/gokhale-constructions.webp) |
-| **Coaching Classes** | Display courses, trainers, and schedules. | ![Coaching](website4/screenshot.png) |
-| **Zoo Park** | Showcase zoo attractions, timings, and ticket info. | ![Zoo](website5/screenshot.png) |
-| **Brand Creation** | Template for showcasing products and services of a brand. | ![Brand](website6/screenshot.png) |
-| **Vacation Rentals** | Display rental properties, booking info, and gallery. | ![Vacation](website7/screenshot.png) |
+| **Yoga Studio** | Showcase yoga classes, schedules, and contact info. | ![Yoga Studio](yoga.html) |
+| **Hospital** | Hospital website with departments, doctors, and appointment section. | ![Hospital](img1.jpg) |
+| **Book Publisher** | Display books, authors, and publishing info. | ![Book Publisher](img2.png) |
+| **Construction** | Construction company portfolio, projects, and services. | ![Construction](img3.png) |
+| **Coaching Classes** | Display courses, trainers, and schedules. | ![Coaching Classes](img4.png) |
+| **Zoo Park** | Showcase zoo attractions, timings, and ticket info. | ![Zoo Park](img5.png) |
+| **Brand Creation** | Template for showcasing products and services of a brand. | ![Brand Creation](img6.png) |
+| **Vacation Rentals** | Display rental properties, booking info, and gallery. | ![Vacation Rentals](img7.png) |
+
 
 
 
